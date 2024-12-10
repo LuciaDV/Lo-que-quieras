@@ -1,0 +1,38 @@
+html{
+    height: 100%;
+}
+body{
+    background-color: #52031a; /*Define el color del fondo*/
+    font-family: merienda;
+    color: #ed5887; /*define el color del texto*/
+    height: 100%; /*Asegura que el fondo cubra toda la pantalla, esto se le debe dar al html y a body*/
+}
+.card{
+    background: #39324d; /*aplica un color de fondo a la tarjeta*/
+    text-align: center; /*centra el texto dentro de la tarjeta*/
+    margin: auto; /*centra la tarjeta horizontalmente*/
+    padding: 20px;
+    width: 400px;
+    
+}
+h1{
+    padding-top: 20px;
+    font-size: 22px;
+    margin: 0;
+}
+h2{
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+p{
+    font-size: 14px;
+    padding: 45px;
+    background: #504375;
+    text-align: justify;
+}
+@media (max-width:440px){
+    .card{
+        width: 200px;
+    }
+}

@@ -1,0 +1,19 @@
+.formulario{
+    background: rebeccapurple;
+    padding: 40px; /* El PADDING es lo que separa el contenido del borde de la caja por eso al aumentarlo 20 px podemos ver mas fondo violeta*/
+}
+.formulario_input{
+    padding: 8px 10px; /* Al aumentar el padding del formulario input lo que pasa es que aumenta el tamaño del contenido */
+    width: 100%;
+    background-color: rgb(34, 1, 51);
+    color: rgb(58, 110, 221);
+    
+}
+.formulario_submit{
+    letter-spacing: 3px;
+    text-transform:uppercase;
+    background-color: rgb(211, 67, 216);
+    color: rgb(240, 172, 219);
+    width: 50%;
+    margin: 10px; /* El MARGIN hace que los contenidos o cajas se separen 10px entre si, en este caso separe el formulario submit de llos demas elementos 10px*/
+}
